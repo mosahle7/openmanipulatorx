@@ -2,7 +2,7 @@
 import rospy
 from open_manipulator_msgs.srv import SetJointPosition, SetJointPositionRequest
 
-def move_joint(joint_name, position, path_time):
+def move_joint(joint_name, position, path_time, planning_group="manipulator"):
     rospy.loginfo("Waiting for service 'goal_joint_space_path' to become available...")
     rospy.wait_for_service('goal_joint_space_path', timeout=60)
     rospy.loginfo("Service 'goal_joint_space_path' is available")
@@ -10,10 +10,12 @@ def move_joint(joint_name, position, path_time):
     try:
         joint_position_service = rospy.ServiceProxy('goal_joint_space_path', SetJointPosition)
         request = SetJointPositionRequest()
+        request.planning_group = planning_group
         request.joint_position.joint_name = joint_name
         request.joint_position.position = position
         request.path_time = path_time
 
+        rospy.loginfo("Planning group: %s", planning_group)
         rospy.loginfo("Joint names: %s", joint_name)
         rospy.loginfo("Joint positions: %s", position)
 
