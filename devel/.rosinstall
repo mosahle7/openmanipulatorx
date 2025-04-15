@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/robotis_ws/devel/setup.sh
