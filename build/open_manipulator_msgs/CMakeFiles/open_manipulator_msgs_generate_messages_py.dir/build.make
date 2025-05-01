@@ -93,9 +93,9 @@ open_manipulator_msgs/CMakeFiles/open_manipulator_msgs_generate_messages_py: /ro
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /root/robotis_ws/src/open_manipulator_msgs/srv/GetKinematicsPose.srv
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /root/robotis_ws/src/open_manipulator_msgs/msg/KinematicsPose.msg
-/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_GetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/robotis_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV open_manipulator_msgs/GetKinematicsPose"
 	cd /root/robotis_ws/build/open_manipulator_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /root/robotis_ws/src/open_manipulator_msgs/srv/GetKinematicsPose.srv -Iopen_manipulator_msgs:/root/robotis_ws/src/open_manipulator_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p open_manipulator_msgs -o /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv
@@ -108,9 +108,9 @@ open_manipulator_msgs/CMakeFiles/open_manipulator_msgs_generate_messages_py: /ro
 
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /root/robotis_ws/src/open_manipulator_msgs/srv/SetKinematicsPose.srv
+/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /root/robotis_ws/src/open_manipulator_msgs/msg/KinematicsPose.msg
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /root/robotis_ws/src/open_manipulator_msgs/msg/KinematicsPose.msg
 /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv/_SetKinematicsPose.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/robotis_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV open_manipulator_msgs/SetKinematicsPose"
 	cd /root/robotis_ws/build/open_manipulator_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /root/robotis_ws/src/open_manipulator_msgs/srv/SetKinematicsPose.srv -Iopen_manipulator_msgs:/root/robotis_ws/src/open_manipulator_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p open_manipulator_msgs -o /root/robotis_ws/devel/lib/python3/dist-packages/open_manipulator_msgs/srv
