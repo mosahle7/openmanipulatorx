@@ -4,3 +4,6 @@ src/open_manipulator_simulations/open_manipulator_gazebo/core
 core
 src/open_manipulator_simulations/open_manipulator_gazebo/worlds/core
 src/open_manipulator_simulations/open_manipulator_gazebo/core
+core
+src/open_manipulator_simulations/open_manipulator_gazebo/worlds/core
+src/open_manipulator_simulations/open_manipulator_gazebo/core
